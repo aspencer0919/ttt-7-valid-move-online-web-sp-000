@@ -3,7 +3,7 @@ index = 1
 
 # code your #valid_move? method here
 def valid_move?(index, position_taken)
-  if  index.between?(0, 8) 9 && position_taken == false
+  if  index.between?(0, 8) && position_taken == false
     return true
   else
     return true
