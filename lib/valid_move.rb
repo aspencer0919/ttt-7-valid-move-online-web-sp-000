@@ -10,7 +10,7 @@ def between?(index)
   end
 end
 
-def valid_move?(index, position_taken)
+def valid_move?(between, position_taken)
   if  between? == true
     return true
   else
