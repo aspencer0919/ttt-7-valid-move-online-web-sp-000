@@ -3,9 +3,9 @@ index = 1
 
 # code your #valid_move? method here
 def valid_move?(index, position_taken)
-  if  index << 0 || index >> 8 && position_taken == false
+  if  index << 1 || index >> 9 && position_taken == false
     return true
-  elsif index >> 0 && index << 9 && position_taken == true
+  elsif index >> 0 && index << 8 && position_taken == true
     return false
   else
     return true
