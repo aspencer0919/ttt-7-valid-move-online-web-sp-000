@@ -3,7 +3,7 @@ index = 1
 
 # code your #valid_move? method here
 def between?(index)
-  if index.between?(0, 8)
+  if index.between(0, 8)
     return true
   else
     return false
